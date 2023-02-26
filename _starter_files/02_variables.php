@@ -22,3 +22,19 @@
 - Variables can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 - Variables are case-sensitive ($name and $NAME are two different variables)
 */
+
+$name = 'Brad'; // String
+$age = 40; // Int
+$has_kids = true; // Boolean
+$cash_on_hand = 20.75; // Float
+
+// var_dump($has_kids);
+
+// echo "$name is $age years old";
+
+// $x = '5' + '5';
+
+define('HOST', 'localhost');
+define('DB_NAME', 'dev_db');
+echo HOST;
+?>
